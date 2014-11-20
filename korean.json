@@ -311,17 +311,6 @@
         "total_transaction_fees": "총 거래 수수료"
       }
     },
-    "ads": {
-      "bitinstant": {
-        "body": "현금으로 구매",
-        "title": "Bitcoins이 필요하십니까?"
-      }
-    },
-    "payment_request": {
-      "p1": "누군가가 당신이 bitcoin 주소가 사람들에게 보여주고 단순히 bitcoins 보내거나 요청이 양식을 사용하십시오.",
-      "pay_me": "저한테 bitcoin으로 보상하세요",
-      "please_send": "bitcoin 주소로 지불할 금액 을 보내주세요"
-    },
     "wallet_mobile": {
       "wallet_new": {
         "continue_button": "지갑을 생성",
@@ -330,113 +319,94 @@
         "confirm_password_placeholder": "암호를 다시 입력",
         "confirm_password": "확인"
       },
-      "receive_money": {
-        "new_address": "새로운"
-      },
       "send_coins": {
         "shared_coin": "공유",
-        "quick_send": "빨리",
-        "custom": "관습"
+        "quick_send": "빠른 송금",
+        "custom": "일반 송금"
       }
     },
-    "maintenance": {
-      "p1": "Blockchain.info는 유지 보수를 위해 다운 중입니다. 상태 업데이트를 참조하십시오 {0}. 모든 불편을 끼쳐 드려 죄송합니다.",
-      "header": "우리는 곧 돌아 오실거다",
-      "title": "유지 보수 아래 사이트 - Blockchain.info"
-    },
     "startup_message": {
-      "p1": "몇 초에 백업해야합니다. 심지어 새로운 기능이있을 수 있습니다.",
-      "header": "사이트로드 ...",
-      "title": "사이트 로딩 - Blockchain.info"
+      "header": "사이트를 불러오는 중 입니다 ...",
+      "title": "사이트 불러오는 중 - Blockchain.info"
     },
     "error_page": {
-      "p1": "이 실수로 판단되는 경우 연락 {0}을 (를)하시기 바랍니다.",
-      "error_404": "페이지를 찾을 수 없습니다, 당신은 제대로 주소를 입력 확인하시기 바랍니다.",
-      "header": "오류 {0}",
-      "title": "오류 {0} - Blockchain.info"
+      "p1": "이것이 실수로 판단되는 경우 연락 {0}을 (를)하시기 바랍니다.",
+      "error_404": "페이지를 찾을 수 없습니다, 당신은 제대로 주소를 입력했는지 확인하시기 바랍니다."
+    },
+    "payment_request": {
+      "p1": "누군가가 당신이 bitcoin 주소가 사람들에게 보여주고 단순히 bitcoins 보내거나 요청이 양식을 사용하십시오.",
+      "pay_me": "저한테 bitcoin으로 보상하세요",
+      "please_send": "bitcoin 주소로 지불할 금액 을 보내주세요"
+    },
+    "maintenance": {
+      "p1": "Blockchain.info는 유지 보수를 위해 정지 상태 입니다. 상태 업데이트를 참조하십시오 {0}. 모든 불편을 끼쳐 드려 죄송합니다.",
+      "header": "우리는 곧 돌아 옵니다",
+      "title": "유지 보수하에 있는 사이트 - Blockchain.info"
+    },
+    "ip_info": {
+      "sub_header": "IP {0}에 의해 첫번째로 전달 된 거래는",
+      "header": "{0} 으로 거래 중계",
+      "title": "Blockchain.info - {0}으로 거래 중계"
     },
     "strange_transactions": {
-      "sub_header": "거래는 우리가 bitcoin 주소를 디코딩 할 수 없습니다있는 출력을 포함.",
-      "meta_description": "표준이 아닌 출력을 비트 코인 거래의 목록",
+      "sub_header": "거래는 우리가 bitcoin 주소를 디코딩 할 수 없습니다는 것에서 나온 출력을 포함합니다.",
+      "meta_description": "비 표준 출력을 포함한 비트 코인 거래의 목록",
       "header": "이상한 거래",
       "title": "이상한 거래 - Blockchain.info"
     },
     "decode_tx": {
-      "p1": "이 페이지는 진수 형식으로 원시 트랜잭션을 디코딩 (예 : 0-9, AF)와 인간이 읽을 수있는 형식으로 표시합니다",
-      "submit": "트랜잭션 제출",
+      "p1": "이 페이지는 진수 형식으로 원시 트랜잭션을 디코딩 (예 : 0-9, A-F)와 인간이 읽을 수 있는 형식으로 표시합니다",
+      "submit": "거래 제출",
       "header": "원시 거래를 디코딩",
       "title": "비트 코인 거래를 디코딩 - Blockchain.info을"
-    },
-    "ip_info": {
-      "sub_header": "IP {0}에 의해 첫번째 릴레이 된 거래는",
-      "next_page": "다음 페이지",
-      "meta_description": "Bitcoin 거래는 IP 주소로 전달 {0}",
-      "header": "으로 중계 거래 {0}",
-      "title": "Blockchain.info - {0}으로 중계 거래"
     },
     "push_tx": {
       "p1": "이 페이지는 16 진수 형식의 원시 트랜잭션 (예 : 0-9, AF)를 붙여 비트 코인의 네트워크를 통해 방송 할 수 있습니다.",
       "submit": "거래 제출",
-      "header": "거래를 방송",
-      "title": "방송 거래 - Blockchain.info",
-      "check_tx_warning": "<b>팁 :</b> 방송 전에 {0} 디코딩 거래 도구 {1}을 사용하여 트랜잭션을 확인"
+      "title": "거래 방송 - Blockchain.info",
+      "check_tx_warning": "<b>팁 :</b> 방송 전에 {0} 디코딩 거래 도구 {1}을 사용하여 거래를 확인"
     },
     "double_spends": {
-      "sub_header": "두번의 소비가 마지막 500000 번의 거래에서 감지됨(10 분 캐시)",
-      "orphaned": "고아가 된",
-      "header": "두 번 지출",
-      "warning": "이 페이지에서 두 번의 소비가 아마 의도하지 않은 것일 수도 있습니다. 이중 지출이 이 페이지 에서 어떤 표시도 없는 체로 악의적으로 조작된 경우에 어떤 상인이나 또는 사용자가 결론적으로 돈을 성공적으로 잃은겁니다.",
-      "title": "두 번의 Bitcoin 지출 - Blockchain.info",
-      "included_in_block": "블록에 포함 된 {0}"
+      "warning": "이 페이지에서 두 번의 소비가 아마 의도하지 않은 것일 수도 있습니다. 이중 지출이 이 페이지 에서 어떤 표시도 없는 체로 악의적으로 조작된 경우에 어떤 상인이나 또는 사용자가 결론적으로 돈을 재대로 잃은겁니다."
     },
     "relayed_by": {
-      "country": "국가",
-      "associated_ips": "연결된 IP 주소",
-      "count": "계산",
-      "warning": "이러한 IP 주소는 선택된 어드레스를 포함하는 트랜잭션을 릴레이 제했다. 그것은 반드시 그것들이 트랜잭션의 소유자 의미하지 않는다.",
-      "ip_address": "IP 주소",
-      "title": "주소와 연관된 IPS"
+      "warning": "이 IP 주소들은 선택된 주소들을 포함하여 거래에 이어나가기 위한 첫 사례입니다.\n이건 이 주소들이 반드시 거래의 소유자란 의미가 아닙니다.",
+      "ip_address": "IP 주소"
     },
     "wallet_forgot_identifier": {
       "sub_header": "귀하의 이메일 주소 또는 아래의 SMS 번호를 입력하고 우리는 확인 링크를 다시 보내 드리겠습니다 :",
-      "p1": "당신이없는 경우 귀하의 계정과 연관된 이메일 주소는 스카이프 사용자 이름, Google 토크 사용자 이름, 비밀 구문 또는 별칭 포함하여 제공 할 수있는 모든 정보를 ({0})로 연락 주시기 바랍니다.",
+      "p1": "당신이 당신의 계정을 포함해 이메일 주소가 없는 경우라도 Skype 사용자 이름, Google Talk 사용자 이름, 비밀 구문 또는 별칭 들을 포함하여 제공 할 수있는 모든 정보를 ({0})로 연락 주시기 바랍니다.",
       "email_or_sms": "이메일 또는 SMS :",
-      "header": "분실 식별자",
-      "title": "분실 식별자",
-      "send": "보내다"
+      "header": "분실된 식별자",
+      "title": "식별자를 잊었어요",
+      "send": "전송"
     },
     "rejected": {
-      "sub_header": "거래 및 bitcoin 노드에 의해 거부 된 블록 떨어져 있습니다.",
+      "sub_header": "우리의 bitcoin 노드들에 의해 거부 된 거래들과 블록들.",
       "reason": "이유",
-      "header": "거부 인벤토리",
+      "header": "거부된 인벤토리",
       "time": "시간",
-      "title": "거부 거래 및 블록 - Blockchain.info",
-      "hash": "해시시"
+      "title": "거부된 거래들 & 블록들 - Blockchain.info",
+      "hash": "해시"
     },
     "misc": {
-      "support_desk": "지원 데스크",
-      "unknown_exception": "알 수없는 예외",
-      "and_word": "과",
-      "disclaimer": "이 웹 사이트의 용어가 돈을 사용하면 가상 통화에만 의미합니다. 우리는 bitcoins는 구매 가격에 사용하실 수 있습니다 보증하지 않습니다.",
-      "recommended": "추천",
-      "unknown": "알 수없는"
+      "support_desk": "지원 센터",
+      "and_word": "과/그리고 ",
+      "disclaimer": "이 웹사이트 상에서 돈이라는 용어의 사용은 오직 가상 화폐만을 뜻합니다.\n우리는 Bitcoin은 구매가에\n교환할 수 있다 라고 보증할 수 없습니다."
     },
     "export_history": {
       "p1": "거래 내역을 보냅니다.",
       "addresses": "주소",
-      "alt": "수출 역사",
+      "alt": "거래 내역 내보내기",
       "from": "부터",
       "to": "에",
-      "title": "수출 역사"
+      "title": "거래 내역 내보내기"
     },
     "unspent_outputs": {
-      "unspendable": "Unspendable!",
-      "meta_description": "{0}에 속한 모든 소비되지 않은 bitcoin 출력의 목록입니다.",
-      "locked_outputs_desc": "고정 출력 blockchain.info에 의해 일시적으로 unspendable 표시되어 출력됩니다. 이러한 출력 중 하나를 보내고 트랜잭션이 방금 방송 되었기 때문에 이것은 보통입니다. 옥내 입력이 자동으로 약 10 분 후 잠금을 해제.",
-      "header": "소비되지 않은 출력",
-      "title": "소비되지 않은 출력 {0}",
-      "locked_outputs": "고정 출력",
-      "locked": "고정!"
+      "unspendable": "소비불가능함!",
+      "locked_outputs_desc": "잠긴 출력들은 blockchain.info에 의해 일시적으로 소비 불가능한 것으로 지정된 출력들 입니다.\n이러한 일은 대개 이 출력들중 하나를 쓰는 한 거래가\n막 방송되었기 때문 입니다.\n잠긴 입력들은 자동적으로 앞으로 대략 10분간 잠김니다.",
+      "locked_outputs": "잠긴 출력",
+      "locked": "잠김!"
     },
     "webgl_globe": {
       "online_now": "지금 온라인",
